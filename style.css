@@ -1,0 +1,54 @@
+
+nav img{
+max-width: 70px;
+max-height: 70px;
+object-fit: scale-down;
+border-radius: 50%; 
+}
+
+
+
+main{
+text-align: center;
+}
+
+
+#codes{
+width: 98%;
+min-height: 280px;
+border-radius: 16px;
+border: 2px solid rgb(221, 122, 141);
+}
+
+#buttons{
+display: flex;
+justify-content:space-evenly;
+}
+
+#buttons button{
+width: 47%; 
+border-radius: 12px;
+border: 0px;
+padding: 10px;
+}
+
+#remove{
+background-color: rgb(74, 141, 83);
+color: white;
+}
+
+#play{
+background-color: rgb(199, 102, 122);
+color: white;
+}
+
+#title-result{
+padding: 10px;
+border-bottom: 2px solid rgb(140, 168, 36);
+margin: 8px 0px;
+font-weight: bold;
+}
+
+#result{
+max-width: 100% !important;
+}
